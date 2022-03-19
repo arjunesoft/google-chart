@@ -1,10 +1,14 @@
 {
-  "name": "google-chartLib",
+  "name": "@arjunshinde/google-chartLib",
   "version": "1.0.0",
   "description": "A chart library made by google for creating charts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arjunesoft/google-chartLib.git"
   },
   "keywords": [
     "chart",
@@ -14,5 +18,9 @@
     "google-charts"
   ],
   "author": "Arjun Shinde",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjunesoft/google-chartLib/issues" 
+  },
+  "homepage": "https://github.com/arjunesoft/google-chartLib.git"
 }
