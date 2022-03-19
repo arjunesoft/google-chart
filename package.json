@@ -1,12 +1,12 @@
 {
   "name": "@arjunshinde/google-chart",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A chart library made by google for creating charts.",
   "main": "index.js",
   "scripts": {
     "pack-lib": "npm pack",
-    "NOTE:": "In below command, after using npm pack command, I have moved the arjunshinde-google-chart-1.1.0.tgz file to src folder. This will make other users easy to find the google-chart.min.js file & not confuse with other files.",
-    "publish-lib":"npm publish /home/arjun/angular/google-chartLib/src/arjunshinde-google-chart-1.1.0.tgz --access public"
+    "NOTE:": "In below command, after using npm pack command, I have moved the arjunshinde-google-chart-1.2.0.tgz file to src folder. This will make other users easy to find the google-chart.min.js file & not confuse with other files.",
+    "publish-lib":"npm publish /home/arjun/angular/google-chartLib/src/arjunshinde-google-chart-1.2.0.tgz --access public"
   },
   "repository": {
     "type": "git",
