@@ -1,4 +1,4 @@
-# google-chartlib
+# google-chart
 
 A chart library made by google for creating charts. Use below library to create wide variety of charts with the help of google charts library.
 
@@ -8,32 +8,37 @@ I have used this above library to make a npm install package so that I can creat
 
 <p align="center">
   <a href="#">
-    <img src="./README-Images/%40arjunshinde-google-chartLib1.jpg" alt="Showcase chart image" width="400" height="330">
+    <img src="./src/README-Images/@arjunshinde-google-chartLib1.jpg" alt="Showcase chart image" width="400" height="330">
   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#">
-    <img src="./README-Images/%40arjunshinde-google-chartLib2.png" alt="Showcase chart image" width="400" height="330">
+    <img src="./src/README-Images/%40arjunshinde-google-chartLib2.png" alt="Showcase chart image" width="400" height="330">
   </a>
 </p>
 
 ## Installation
 
-You can install google-chartLib using the following command:
+You can install google-chart using the following command:
 
 ```bash
-npm install @arjunshinde/google-chartlib --save
+npm install @arjunshinde/google-chart --save
 ```
+
+---
+---
 
 ## Working with Angular
 
-Here is a simple example of how to use `google-chartlib` in Angular using **`bar chart`**
+Here is a simple example of how to use **google-chart** in Angular using **`bar chart`**
 
 ### 1. Add the path of library to the angular.json file
 
 Open **`Angular.json`** file in your project and paste the following line in **`scripts`** section.
 
 ```bash
-./node_modules/@arjunshinde/google-chartlib/google-chart.min.js
+./node_modules/@arjunshinde/google-chart/google-chart.min.js
 ```
+
+---
 
 ### 2. Create a new component & Initialize the component
 
@@ -49,6 +54,8 @@ Open the **`app.component.html`** file and paste the following code in it.
 <app-bar-chart></app-bar-chart>
 ```
 
+---
+
 ### 3. Add view part of bar-chart component
 
 Open the **`bar-chart.component.html`** file and paste the following code.
@@ -56,6 +63,8 @@ Open the **`bar-chart.component.html`** file and paste the following code.
 ```html
 <div id="canvas_barChart"></div>
 ```
+
+---
 
 ### 4. Add the controller part of bar-chart component
 
@@ -121,6 +130,8 @@ export class BarChartComponent implements OnInit {
 }
 ```
 
+---
+
 ### 5. Run the angular project
 
 ```bash
@@ -129,10 +140,14 @@ ng serve -o
 
 Open the **`localhost:4200`** URL in your browser.
 
+---
+---
+
 ## Usage demo Sample chart
 
 Below is a sample chart that you can use to test the library.
 
-![Sample chart](./README-Images/bar-chart.png)
+![Sample chart](./src/README-Images/bar-chart.png)
 
+---
 ---
