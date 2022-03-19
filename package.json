@@ -6,7 +6,7 @@
   "scripts": {
     "pack-lib": "npm pack",
     "NOTE:": "In below command, after using npm pack command, I have moved the arjunshinde-google-chart-1.1.0.tgz file to src folder. This will make other users easy to find the google-chart.min.js file & not confuse with other files.",
-    "publish-lib":"npm publish src/arjunshinde-google-chart-1.1.0.tgz --access public"
+    "publish-lib":"npm publish /home/arjun/angular/google-chartLib/src/arjunshinde-google-chart-1.1.0.tgz --access public"
   },
   "repository": {
     "type": "git",
