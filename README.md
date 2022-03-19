@@ -1,4 +1,4 @@
-# google-chartLib
+# google-chartlib
 
 A chart library made by google for creating charts. Use below library to create wide variety of charts with the help of google charts library.
 
@@ -20,19 +20,19 @@ I have used this above library to make a npm install package so that I can creat
 You can install google-chartLib using the following command:
 
 ```bash
-npm install @arjunshinde/google-chartLib --save
+npm install @arjunshinde/google-chartlib --save
 ```
 
 ## Working with Angular
 
-Here is a simple example of how to use `google-chartLib` in Angular using **`bar chart`**
+Here is a simple example of how to use `google-chartlib` in Angular using **`bar chart`**
 
 ### 1. Add the path of library to the angular.json file
 
 Open **`Angular.json`** file in your project and paste the following line in **`scripts`** section.
 
 ```bash
-./node_modules/@arjunshinde/google-chartLib/google-chart.min.js
+./node_modules/@arjunshinde/google-chartlib/google-chart.min.js
 ```
 
 ### 2. Create a new component & Initialize the component
